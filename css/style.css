@@ -1,14 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: none;
+  box-sizing: border-box;
 }
 
 body {
-  padding: 3em;
+  padding-top: 5em;
   transition: 0.5s;
   background-image: url(/assets/ethan-hoover-eIVJAkj1uCs-unsplash.jpg);
-  background-size: auto;
 }
 
 h1 {
@@ -152,4 +151,49 @@ form h5 span {
 }
 #clear:hover {
   background-color: rgb(201, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  form {
+    width: 13rem;
+  }
+  form h2 {
+    font-size: 18px;
+  }
+  form input {
+    width: 8em;
+    height: 2rem;
+    font-size: 15px;
+    margin-left: 0.5em;
+    margin: auto;
+  }
+  form #submit {
+    width: 3.8em;
+    height: 2.8rem;
+    font-size: 15px;
+    transition: 0.5s;
+  }
+  form h3 {
+    font-size: 25px;
+  }
+  form .expl {
+    font-size: 15px;
+  }
+  form .items #ul li {
+    font-size: 14px;
+  }
+  form .h4 {
+    font-size: 18px;
+  }
+  form h5 {
+    font-size: 13px;
+  }
+  #remove-btn {
+    width: 15px;
+    height: 17px;
+    transition: 0.5s;
+  }
 }/*# sourceMappingURL=style.css.map */
